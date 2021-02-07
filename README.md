@@ -24,10 +24,10 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Introduction
-Your task is to implement a secret server. The secret server can be used to store and share secrets using a random generated URL. But the secret can be read only a limited number of times after that it will expire and won’t be available. The secret may have a TTL (Time to live). After the expiration time the secret won’t be available anymore.
+Implement a secret server. The secret server can be used to store and share secrets using a random generated URL. But the secret can be read only a limited number of times after that it will expire and won’t be available. The secret may have a TTL (Time to live). After the expiration time the secret won’t be available anymore.
 
 # Task
-Implementation: You have to implement the Secret Server API, with NodeJS + express.js framework on the backend + MongoDb (you can use any additonal library). It is recommended to store the data using encryption. Provide tests for the backend.
+Implementation: Implement the Secret Server API, with NodeJS + express.js framework on the backend + MongoDb (you can use any additonal library). Store the data using encryption. Provide tests for the backend.
 
 Build a minimal, but functional frontend in VueJS with the ability to create and view secrets (if the hash is known)
 
@@ -75,7 +75,4 @@ Running your code: Provide instructions how to run your code, docker-compose is 
 **Response** : Same as `/api/secret/[hash]`
 
 
-
-# Questions
-It is totaly OK to ask if something is not clear.
 
